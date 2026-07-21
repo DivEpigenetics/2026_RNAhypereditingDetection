@@ -7,8 +7,8 @@ This repository contains the implementation of the RNA hyperediting detection wo
 The pipeline consists of six sequential steps:
 
     1. Genome alignment and extraction of unmapped reads
-    • Paired-end RNA-seq reads are aligned to the reference genome using BWA.
-    • Read pairs for which both mates remain unmapped are extracted for downstream analysis.
+        ◦ Paired-end RNA-seq reads are aligned to the reference genome using BWA.
+        ◦ Read pairs for which both mates remain unmapped are extracted for downstream analysis.
     2. Filtering of unmapped reads
         ◦ Low-quality reads and reads containing excessive ambiguous bases or low-complexity sequences are removed.
     3. Generation of nucleotide-converted reference genomes
@@ -24,8 +24,8 @@ The pipeline consists of six sequential steps:
             ▪ SPMM (Sites Per Million primary mapped reads)
             ▪ SPMB (Sites Per Million mapped bases)
 
-###Repository structure
-####scripts/
+### Repository structure
+#### scripts/
     01_initial_map_and_unmapped.sh
     02_filter_unmapped.sh
     03_build_masked_refs.sh
@@ -34,22 +34,22 @@ The pipeline consists of six sequential steps:
     05_calling_per_sites.py
     06_sites_per_million.sh
 
-####config/
+#### config/
     classes.tsv
 
-###Requirements
+### Requirements
     • Python 3
     • BWA (v0.7.18)
     • SAMtools (v1.20)
     • GNU awk
     • gzip
 
-###Input
+### Input
 The pipeline requires:
     • paired-end RNA-seq FASTQ files
     • a reference genome in FASTA format
 
-###Output
+### Output
 The pipeline produces:
     • filtered unmapped reads
     • nucleotide-converted reference genomes
@@ -60,7 +60,7 @@ The pipeline produces:
         ◦ editing clusters
     • a summary table containing the number of editing sites together with SPMM and SPMB values for each substitution class.
 
-###Citation
+### Citation
 If you use this repository, please cite both:
     1. Porath, H. T., Carmi, S. & Levanon, E. Y. A genome-wide map of hyper-edited RNA reveals numerous new sites. Nat. Commun. 5, 4726 (2014).
 who originally developed the RNA hyperediting detection methodology.
