@@ -55,9 +55,9 @@ The pipeline consists of six sequential steps:
         ◦ nucleotide-converted reference genomes
         ◦ alignments against each substitution class
         ◦ BED files containing:
-            ◦ hyperedited reads
-            ◦ editing sites
-            ◦ editing clusters
+            ▪ hyperedited reads
+            ▪ editing sites
+            ▪ editing clusters
         ◦ a summary table containing the number of editing sites together with SPMM and SPMB values for each substitution class.
 
 
