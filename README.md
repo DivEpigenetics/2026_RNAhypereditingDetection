@@ -3,7 +3,7 @@
 ## RNA Hyperediting Detection Pipeline README file
 This repository contains the implementation of the RNA hyperediting detection workflow used in our study of A-to-I RNA hyperediting in the marbled crayfish (Procambarus virginalis). The workflow is based on the RNA hyperediting detection strategy developed by Porath et al. (2014) and has been adapted for marbled crayfish. The purpose of this repository is to facilitate reproduction of our analyses and application of the workflow to additional datasets.
 
-###Pipeline overview
+### Pipeline overview
 The pipeline consists of six sequential steps:
 
     1. ###Genome alignment and extraction of unmapped reads
@@ -11,7 +11,7 @@ The pipeline consists of six sequential steps:
     • Read pairs for which both mates remain unmapped are extracted for downstream analysis.
     2. ###Filtering of unmapped reads
         ◦ Low-quality reads and reads containing excessive ambiguous bases or low-complexity sequences are removed.
-    3. ###Generation of nucleotide-converted reference genomes
+    3. ### Generation of nucleotide-converted reference genomes
         ◦ Twelve mismatch-masked reference genomes corresponding to all possible nucleotide substitution classes are generated.
         ◦ The substitution classes are defined in config/classes.tsv.
     4. ###Alignment to nucleotide-converted references
