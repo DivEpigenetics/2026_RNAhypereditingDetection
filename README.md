@@ -45,6 +45,7 @@ The pipeline consists of six sequential steps:
     • gzip
 
 ### Input
+    The pipeline requires:
 The pipeline requires:
         ◦ paired-end RNA-seq FASTQ files
         ◦ a reference genome in FASTA format
