@@ -46,8 +46,8 @@ The pipeline consists of six sequential steps:
 
 ### Input
     The pipeline requires:
-    ◦ paired-end RNA-seq FASTQ files
-        ◦ a reference genome in FASTA format
+        ◦ paired-end RNA-seq FASTQ files
+        ◦ reference genome in FASTA format
 The pipeline requires:
         ◦ paired-end RNA-seq FASTQ files
         ◦ a reference genome in FASTA format
