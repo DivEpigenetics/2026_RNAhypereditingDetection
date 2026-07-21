@@ -50,7 +50,7 @@ The pipeline consists of six sequential steps:
         ◦ reference genome in FASTA format
 
 ### Output
-The pipeline produces:
+    The pipeline produces:
         ◦ filtered unmapped reads
         ◦ nucleotide-converted reference genomes
         ◦ alignments against each substitution class
@@ -59,6 +59,7 @@ The pipeline produces:
             ◦ editing sites
             ◦ editing clusters
         ◦ a summary table containing the number of editing sites together with SPMM and SPMB values for each substitution class.
+
 
 ### Citation
 If you use this repository, please cite both:
