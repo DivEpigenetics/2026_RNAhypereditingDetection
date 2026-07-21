@@ -61,8 +61,8 @@ The pipeline consists of six sequential steps:
         ◦ a summary table containing the number of editing sites together with SPMM and SPMB values for each substitution class.
 
 
-### Citation
-If you use this repository, please cite both:
+### Citation<br />
+If you use this repository, please cite both:<br />
     1. Porath, H. T., Carmi, S. & Levanon, E. Y. A genome-wide map of hyper-edited RNA reveals numerous new sites. Nat. Commun. 5, 4726 (2014).
-who originally developed the RNA hyperediting detection methodology.
+who originally developed the RNA hyperediting detection methodology.<br />
     2. Diaz et al., which describes the implementation and application of this workflow.
