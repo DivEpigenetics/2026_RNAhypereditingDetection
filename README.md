@@ -38,19 +38,16 @@ The pipeline consists of six sequential steps:
     classes.tsv
 
 ### Requirements
-    • Python 3
-    • BWA (v0.7.18)
-    • SAMtools (v1.20)
-    • GNU awk
-    • gzip
+        ◦ Python 3
+        ◦ BWA (v0.7.18)
+        ◦ SAMtools (v1.20)
+        ◦ GNU awk
+        ◦ gzip
 
 ### Input
     The pipeline requires:
         ◦ paired-end RNA-seq FASTQ files
         ◦ reference genome in FASTA format
-The pipeline requires:
-        ◦ paired-end RNA-seq FASTQ files
-        ◦ a reference genome in FASTA format
 
 ### Output
 The pipeline produces:
