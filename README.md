@@ -46,19 +46,19 @@ The pipeline consists of six sequential steps:
 
 ### Input
 The pipeline requires:
-    • paired-end RNA-seq FASTQ files
-    • a reference genome in FASTA format
+        ◦ paired-end RNA-seq FASTQ files
+        ◦ a reference genome in FASTA format
 
 ### Output
 The pipeline produces:
-    • filtered unmapped reads
-    • nucleotide-converted reference genomes
-    • alignments against each substitution class
-    • BED files containing:
-        ◦ hyperedited reads
-        ◦ editing sites
-        ◦ editing clusters
-    • a summary table containing the number of editing sites together with SPMM and SPMB values for each substitution class.
+        ◦ filtered unmapped reads
+        ◦ nucleotide-converted reference genomes
+        ◦ alignments against each substitution class
+        ◦ BED files containing:
+            ◦ hyperedited reads
+            ◦ editing sites
+            ◦ editing clusters
+        ◦ a summary table containing the number of editing sites together with SPMM and SPMB values for each substitution class.
 
 ### Citation
 If you use this repository, please cite both:
